@@ -14,5 +14,9 @@ def hello_to_who(req, resp, *, who):
 def hello_to_who_json(req, resp, *, who):
     resp.media = {"hello": who}
 
+@api.route("/hello/{who}/html")
+def hello_html(req, resp, *, who):
+    resp.content = api.template('hello.html', who=who)
+
 if __name__ == "__main__":
     api.run()
