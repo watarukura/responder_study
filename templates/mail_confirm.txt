@@ -1,0 +1,45 @@
+{{ last_name }}　{{ first_name }}（{{ last_name_kana }}　{{ first_name_kana }}）様
+
+この度は「{{ shop_name }}」をご利用いただき、誠にありがとうございます。
+
+ご注文内容は下記の通りです。
+
+商品発送後、改めて『商品の発送のお知らせ』メールを送信させていただきます。
+------------------------------------------------------------------------
+【注文番号】　　{{ order_no }}
+【ご注文日】　　{{ order_date }}
+【ご入金期限日】{{ payment_limit }}
+【ご注文者】　　{{ last_name }}　{{ first_name }}（{{ last_name_kana }}　{{ first_name_kana }}）様
+【お届け先】　　{{ dist_last_name }}　{{ dist_first_name }}（{{ dist_last_name_kana }}　{{ dist_first_name_kana }}）様
+【ご注文明細】
+{{ order_detail }}
+
+【お買上金額】
+　商品代金合計：{{ item_total_amount }}円
+　送料：　　　　{{ delivery_charge }}円
+　手数料：　　　{{ cod_fee }}円
+　ポイント使用：{{ used_point }}ポイント
+　合計金額：　　{{ total_amount }}円
+【お支払方法】　{{ payment_method }}
+
+{{ payment_method_notes }}
+
+【到着日指定】
+　到着日：　　{{ delivery_specification_date }}
+　時間帯：　　{{ delivery_specification_time }}
+------------------------------------------------------------------------
+≪商品お届けについて≫
+{{ delivery_description }}
+
+≪お支払について≫
+{{ payment_description }}
+
+≪キャンセル・注文内容の変更について≫
+{{ cancel_or_change_description }}
+
+こちらの注文に覚えがない場合、その他ご不明な点につきましては
+下記【お問い合わせ】フォーム、またはお電話にてご連絡ください。
+
+========================================================
+{{ signature }}
+========================================================
