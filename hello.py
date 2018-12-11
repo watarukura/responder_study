@@ -46,13 +46,13 @@ def order_mail_confirm_json(req, resp, *, order_no):
                                      '\n'
                                      '各コンビニエンスストアの支払い方法については下記をご参照ください。\n'
                                      '・ローソン\n'
-                                     'https://example.com/shop/static/payment_guide/cvs/lawson.html\n'
+                                     'https://example.com/cvs/lawson.html\n'
                                      '・セイコーマート\n'
-                                     'https://example.com/shop/static/payment_guide/cvs/seicomart.html\n'
+                                     'https://example.com/cvs/seicomart.html\n'
                                      '・ファミリーマート\n'
-                                     'https://example.com/shop/static/payment_guide/cvs/famima2.html\n'
+                                     'https://example.com/cvs/famima.html\n'
                                      '・ミニストップ\n'
-                                     'https://example.com/shop/static/payment_guide/cvs/ministop.html'),
+                                     'https://example.com/cvs/ministop.html'),
             "delivery_specification_date": "2018年12月13日",
             "delivery_specification_time": "午前中",
             "delivery_description": ('ご入金確認後、商品の確保・出荷をさせていただきます。\n'
