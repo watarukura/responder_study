@@ -10,7 +10,7 @@ mypy = "*"
 
 [packages]
 responder = "*"
-starlette = "==0.8"
+starlette = "*"
 
 [requires]
 python_version = "3.6"
